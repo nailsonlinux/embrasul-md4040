@@ -105,6 +105,3 @@ commands['dhti_b']['type'] = 'float'
 commands['dhti_c'] = {}
 commands['dhti_c']['command'] = '0103007A0002E5D2'
 commands['dhti_c']['type'] = 'float'
-# commands['reset'] = {}
-# commands['reset']['command'] = '010201E0A0'
-# commands['reset']['type'] = 'float'
