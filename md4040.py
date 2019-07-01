@@ -36,13 +36,7 @@ def talk(command, ip, port):
 		numeric_data.append(int(item,16))
 	s.close()
 	return splited
-	
-def __debug(command, ip, port):
-	entire_command = dictionary.commands[command]
-	command_type = entire_command['type']
-	command_sequence = entire_command['command']
-	raw_data = talk(command_sequence, ip, port)
-	return raw_data
+
 
 def measure(command, ip, port):
 	entire_command = dictionary.commands[command]
